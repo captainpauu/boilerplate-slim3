@@ -5,11 +5,8 @@
 <link rel="icon" href="">
 
 <!-- Include default global files -->
-
-<!-- Example
-
+{*Example
 <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/assets/css/global.css">
 <script src="/assets/js/Global.js"></script>
-
--->
+*}
