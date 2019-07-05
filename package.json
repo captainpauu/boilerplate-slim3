@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate-slim3-smarty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "php -S localhost:8080 -t public public/index.php",
+    "webpack": "webpack --config webpack.config.js",
+    "sass": "sass node/scss:public/assets/css/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captainpauu/boilerplate-slim3-smarty.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "slim3",
+    "smarty"
+  ],
+  "author": "Pravin Dhange",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/captainpauu/boilerplate-slim3-smarty/issues"
+  },
+  "homepage": "https://github.com/captainpauu/boilerplate-slim3-smarty#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "sass": "1.22.0",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
