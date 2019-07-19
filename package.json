@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "php -S localhost:8080 -t public public/index.php",
     "webpack": "webpack --config webpack.config.js",
-    "sass": "sass node/scss:public/assets/css/build"
+    "sass": "sass node/scss:public/assets/css/build",
+    "phpunit": "./vendor/bin/phpunit -c phpunit.xml  --coverage-html coverage"
   },
   "repository": {
     "type": "git",
