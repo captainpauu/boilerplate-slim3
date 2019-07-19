@@ -7,6 +7,6 @@
 {block name=content}
     <!-- add html body in this section -->
     <div class="container-fluid">
-        <h1> Hello World!!</h1>
+        <h1> Hello {$name} !! How are You?</h1>
     </div>
 {/block}
